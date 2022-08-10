@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700;800&family=Noto+Sans:wght@700&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+/* 	GLOBAL	*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Heebo;
+}
+
+body{
+	background-color: #FFEDD5;
+}
+ul{
+	list-style: none;
+}
+
+
+/* HEADER */
+header{
+	text-align: center;
+	padding: 32px 0;
+}
+
+header,
+section{
+	max-width: 300px;
+	margin: 0 auto;
+}
+header h1{
+	margin-bottom: 4px;
+}
+header h1 span{
+	color: #995000;
+}
+
+/* SECTION */
+section {
+	margin-bottom: 24px;
+}
+
+section h2{
+	background-color: #FED7AA;
+	padding: 8px 16px;
+	text-align: center;
+
+	margin-bottom: 24px;
+}
+
+
+/* LISTAS */
+ul li{
+	margin-bottom: 16px;
+	display: flex;
+}
+
+li .details{
+	max-width: 240px;
+}
+
+.details h3{
+	margin-bottom: 8px;
+}
